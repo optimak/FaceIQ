@@ -27,6 +27,30 @@ Utilized **EarlyStopping** and **ReduceLROnPlateau** callbacks to optimize model
 ## 🎨 Visualizations
 Training metrics visualized for each task, showcasing **loss, accuracy,** and **error rates** over each epoch.
 
+## Results Overview:
+1. **Age Prediction Model**
+![Alt text](https://i.ibb.co/wz514B2/loss-age.png "loss for age")
+
+   - **Validation Loss**: Reduces and stabilizes, suggesting good model generalization.
+   - **Summary**: Minimal overfitting observed; model performs well.
+
+2. **Gender Prediction Model**
+   ![Alt text](https://i.ibb.co/JCNDjMV/loss-gender.png "loss for gender")
+
+   - **Validation Loss**: Remains above training loss with slight fluctuation, hinting at potential overfitting.
+   - **Summary**: Good training performance; model may need tuning to improve generalization.
+
+3. **Ethnicity Prediction Model**
+   ![Alt text](https://i.ibb.co/P4wcd0n/loss-ethnicity.png "loss for ethnicity")
+
+   - **Validation Loss**: Closely follows training loss, indicating strong generalization.
+   - **Summary**: Balanced performance with low overfitting.
+
+### Key Insights
+- All models show effective learning, with steady training loss reduction.
+- **Age and ethnicity models** demonstrate strong generalization.
+- **Gender model** may benefit from regularization to reduce the validation gap.
+
 ## 🚀 Getting Started
 Clone the repo and set up the environment to start exploring the model’s predictions!
 
