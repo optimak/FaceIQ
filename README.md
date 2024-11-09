@@ -6,10 +6,10 @@
 Welcome to the **UTKFace Multi-Task Prediction** project! This repository showcases a deep learning model for predicting **age, gender, and ethnicity** using the popular **UTKFace dataset**. This project leverages **transfer learning** with a pre-trained VGG16 model to achieve high accuracy across all three tasks, making it a robust solution for facial analysis.
 
 ## 🔥 Key Features
+- **Data Augmentation**: Resizing, scaling, and transforming images for improved model generalization.
 - **Multi-Task Learning**: Simultaneous training for age regression, gender classification, and ethnicity classification.
 - **Transfer Learning with VGG16**: Fine-tuned VGG16 as a feature extractor for efficient, high-quality predictions.
 - **Early Stopping and Learning Rate Scheduling**: Intelligent training strategy to prevent overfitting and improve model performance.
-- **Data Augmentation**: Resizing, scaling, and transforming images for improved model generalization.
 
 ## 🛠️ Model Architecture
 The model includes:
