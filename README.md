@@ -1,7 +1,9 @@
 # FaceIQ
-## UTKFace Multi-Task Age, Gender, and Ethnicity Prediction
+### UTKFace Multi-Task Age, Gender, and Ethnicity Prediction
 - Originally on Colab - [here](https://colab.research.google.com/drive/1NzYhNOmbY2KL3aRiWoM8A_G2J3-UJ9BQ?usp=sharing)
-Welcome to the **UTKFace Multi-Task Prediction** project! This repository showcases a deep learning pipeline for predicting **age, gender, and ethnicity** using the popular **UTKFace dataset**. This project leverages **transfer learning** with a pre-trained VGG16 model to achieve high accuracy across all three tasks, making it a robust solution for facial analysis.
+
+
+Welcome to the **UTKFace Multi-Task Prediction** project! This repository showcases a deep learning model for predicting **age, gender, and ethnicity** using the popular **UTKFace dataset**. This project leverages **transfer learning** with a pre-trained VGG16 model to achieve high accuracy across all three tasks, making it a robust solution for facial analysis.
 
 ## 🔥 Key Features
 - **Multi-Task Learning**: Simultaneous training for age regression, gender classification, and ethnicity classification.
